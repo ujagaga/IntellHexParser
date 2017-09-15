@@ -1,1 +1,4 @@
 # IntellHexParser
+
+intelHexParser.py is the main file used to parse pic32 image. The rest are examples using the parser.The parser has some conveniance functions which you can read in the file itself.
+i can not guarantee that everything works without any bugs, but in the year I used it, I corrected all the bugs I encountered. I used it to embed a bootloader image in the application as a c file containing an array of bytes, so it can be written within the application itself and used for updating the existing bootloader. Also I needed the parser to calculate an image CRC32 and write it to a Firmware descriptor defined in an application. You may use all this software as without restrictions.
